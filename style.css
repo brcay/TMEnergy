@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Navbar Area */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #c1c5ff,#4e05f8);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: beige !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: beige;
+    font-size: 30px;
+}
+
+/* Banner Area */
+
+#banner {
+    background-image: linear-gradient(to right, #c1c5ff,#4e05f8);
+    color: beige;
+    padding-top: 5%;
+}
+
+.tittle {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: "Bona Nova SC", serif;;
+    color: rgba(34, 33, 33, 0.822);
+}
+
+ /* tittle classına ait ekstra  */
+ .tittle:after {
+    content: "";
+    background-color: #7b72c5;
+    width: 250px;
+    height: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    transform: translate(8px);
+ }
+
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: beige;
+    text-decoration: none;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.wave {
+   width: 100%; 
+}
+
+/* Services Area */
+
+#services {
+    padding: 80px 0;
+}
+
+.services-img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.btn-wrapper {
+    position: relative;
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #c1c5ff,#4e05f8);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* About Us Area */
+
+#about-us {
+    background-color: rgb(247, 247, 248);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-tittle {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 15%;
+}
+
+#about-us ul {
+    margin-left: 20px;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+}
+
+.about-us img {
+    width: 400px;
+    height: 400px;  
+}
+
+
+/*  Customoers Area */
+#customers {
+    margin: 100px 0;
+}
+
+.customers {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 3px solid #756ac4;
+}
+
+#customers img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    font-size: 12px;
+    display: inline-block;
+}
+
+/* Social Medias Area */
+
+#social-media {
+    background-color: rgb(247, 247, 248);
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 90px;
+    padding-left: 45px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/* Footer Area */
+
+#footer {
+    background-image: linear-gradient(#c1c5ff,#4e05f8);
+    color: white;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.footer-box .icons {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #c1c5ff,#4e05f8);
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    max-width: 250px;
+    margin-top: 25px;
+}
+
+.footer-box .btn-primary {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #c1c5ff,#4e05f8);
+}
+
+hr {
+    background-color: white;
+}
+
+.copright {
+    margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
